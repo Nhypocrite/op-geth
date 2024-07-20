@@ -22,15 +22,15 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/ethereum/go-ethereum/signer/core/apitypes"
+	"github.com/Nhypocrite/op-geth"
+	"github.com/Nhypocrite/op-geth/accounts"
+	"github.com/Nhypocrite/op-geth/common"
+	"github.com/Nhypocrite/op-geth/common/hexutil"
+	"github.com/Nhypocrite/op-geth/core/types"
+	"github.com/Nhypocrite/op-geth/event"
+	"github.com/Nhypocrite/op-geth/log"
+	"github.com/Nhypocrite/op-geth/rpc"
+	"github.com/Nhypocrite/op-geth/signer/core/apitypes"
 )
 
 type ExternalBackend struct {

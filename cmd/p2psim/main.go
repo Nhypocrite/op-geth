@@ -44,13 +44,13 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/internal/flags"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/simulations"
-	"github.com/ethereum/go-ethereum/p2p/simulations/adapters"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/Nhypocrite/op-geth/crypto"
+	"github.com/Nhypocrite/op-geth/internal/flags"
+	"github.com/Nhypocrite/op-geth/p2p"
+	"github.com/Nhypocrite/op-geth/p2p/enode"
+	"github.com/Nhypocrite/op-geth/p2p/simulations"
+	"github.com/Nhypocrite/op-geth/p2p/simulations/adapters"
+	"github.com/Nhypocrite/op-geth/rpc"
 	"github.com/urfave/cli/v2"
 )
 

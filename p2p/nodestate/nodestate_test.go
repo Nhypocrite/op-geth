@@ -23,11 +23,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/Nhypocrite/op-geth/common/mclock"
+	"github.com/Nhypocrite/op-geth/core/rawdb"
+	"github.com/Nhypocrite/op-geth/p2p/enode"
+	"github.com/Nhypocrite/op-geth/p2p/enr"
+	"github.com/Nhypocrite/op-geth/rlp"
 )
 
 func testSetup(flagPersist []bool, fieldType []reflect.Type) (*Setup, []Flags, []Field) {

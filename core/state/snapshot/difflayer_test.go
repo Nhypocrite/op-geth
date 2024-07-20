@@ -22,10 +22,10 @@ import (
 	"math/rand"
 	"testing"
 
+	"github.com/Nhypocrite/op-geth/common"
+	"github.com/Nhypocrite/op-geth/crypto"
+	"github.com/Nhypocrite/op-geth/ethdb/memorydb"
 	"github.com/VictoriaMetrics/fastcache"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
 )
 
 func copyDestructs(destructs map[common.Hash]struct{}) map[common.Hash]struct{} {

@@ -17,7 +17,7 @@
 package vm
 
 import (
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/Nhypocrite/op-geth/common"
 	"github.com/holiman/uint256"
 )
 

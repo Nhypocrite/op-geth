@@ -24,13 +24,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/cmd/devp2p/internal/v4test"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/internal/flags"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/Nhypocrite/op-geth/cmd/devp2p/internal/v4test"
+	"github.com/Nhypocrite/op-geth/common"
+	"github.com/Nhypocrite/op-geth/crypto"
+	"github.com/Nhypocrite/op-geth/internal/flags"
+	"github.com/Nhypocrite/op-geth/p2p/discover"
+	"github.com/Nhypocrite/op-geth/p2p/enode"
+	"github.com/Nhypocrite/op-geth/params"
 	"github.com/urfave/cli/v2"
 )
 

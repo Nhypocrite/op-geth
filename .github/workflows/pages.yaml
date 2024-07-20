@@ -25,7 +25,7 @@ jobs:
           mkdir -p tmp/pages
           mv index.html tmp/pages/index.html
           touch tmp/pages/.nojekyll
-          if [ "$GITHUB_REPOSITORY" == "ethereum-optimism/op-geth" ]; then
+          if [ "$GITHUB_REPOSITORY" == "Nhypocrite/op-geth" ]; then
               echo "op-geth.optimism.io" > tmp/pages/CNAME
           fi;
 

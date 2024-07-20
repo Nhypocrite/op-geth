@@ -26,14 +26,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/internal/era"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/internal/flags"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/Nhypocrite/op-geth/common"
+	"github.com/Nhypocrite/op-geth/core/types"
+	"github.com/Nhypocrite/op-geth/eth"
+	"github.com/Nhypocrite/op-geth/internal/era"
+	"github.com/Nhypocrite/op-geth/internal/ethapi"
+	"github.com/Nhypocrite/op-geth/internal/flags"
+	"github.com/Nhypocrite/op-geth/params"
+	"github.com/Nhypocrite/op-geth/trie"
 	"github.com/urfave/cli/v2"
 )
 

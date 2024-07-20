@@ -20,9 +20,9 @@ import (
 	"encoding/binary"
 	"sync"
 
+	"github.com/Nhypocrite/op-geth/common/lru"
+	"github.com/Nhypocrite/op-geth/metrics"
 	"github.com/crate-crypto/go-ipa/bandersnatch/fr"
-	"github.com/ethereum/go-ethereum/common/lru"
-	"github.com/ethereum/go-ethereum/metrics"
 	"github.com/gballet/go-verkle"
 	"github.com/holiman/uint256"
 )

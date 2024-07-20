@@ -21,12 +21,12 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	cmath "github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto/kzg4844"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/Nhypocrite/op-geth/common"
+	cmath "github.com/Nhypocrite/op-geth/common/math"
+	"github.com/Nhypocrite/op-geth/core/types"
+	"github.com/Nhypocrite/op-geth/core/vm"
+	"github.com/Nhypocrite/op-geth/crypto/kzg4844"
+	"github.com/Nhypocrite/op-geth/params"
 	"github.com/holiman/uint256"
 )
 
